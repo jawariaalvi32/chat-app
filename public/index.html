@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyBl1DUcE5JY42u3RsX8PyeLc42tt7UQ8xw",
+          authDomain: "conect-chat.firebaseapp.com",
+          databaseURL: "https://conect-chat.firebaseio.com",
+          projectId: "conect-chat",
+          storageBucket: "conect-chat.appspot.com",
+          messagingSenderId: "317383888358",
+          appId: "1:317383888358:web:a6a74074e8a81680111a27",
+          measurementId: "G-FZ89GQE40M"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+      
+</head>
+
+<body class="bg-dark">
+    <div class="container">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <button onclick="fbLogin()">Signup</button>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script> 
+
+</body>
+</html>
